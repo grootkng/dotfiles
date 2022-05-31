@@ -5,6 +5,7 @@ Plug 'https://github.com/ap/vim-css-color'
 call plug#end()
 
 let g:NERDTreeWinPos = "right"
+let NERDTreeShowHidden=1
 map <F5> :NERDTreeToggle<CR>
 
 set number
