@@ -10,6 +10,7 @@ call plug#end()
 let g:NERDTreeWinPos = "right"
 let NERDTreeShowHidden=1
 map <F5> :NERDTreeToggle<CR>
+nnoremap c/ I/* <ESC>A */<ESC>
 
 let g:gruvbox_contrast_light='medium'
 set bg=dark
